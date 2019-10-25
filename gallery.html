@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SMARTMED - Gallery</title>
+	<link rel="icon" href="img/Fevicon.png" type="image/png">
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+  <link rel="stylesheet" href="vendors/nouislider/nouislider.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!--================ Start Header Menu Area =================-->
+	<header class="header_area">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt="" width="120px" height="65px"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav ml-auto mr-auto">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Project</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="overview.html">Overview</a></li>
+                  <li class="nav-item"><a class="nav-link" href="approach.html">Approach</a></li>
+                </ul>
+							</li>
+              <li class="nav-item submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Partners</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="partners.html" style="font-size:14.3px;">Participating Partners</a></li>
+                  <li class="nav-item"><a class="nav-link" href="team.html">Project Team</a></li>
+                </ul>
+							</li>
+							<li class="nav-item submenu dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Results</a>
+                <ul class="dropdown-menu">
+                  <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+                  <li class="nav-item"><a class="nav-link" href="presentations.html">Presentations</a></li>
+                  <!-- <li class="nav-item"><a class="nav-link" href="software-data.html">Software & Data</a></li> -->
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="news.html">News</a></li>
+              <li class="nav-item active"><a class="nav-link" href="gallery.html">Gallery</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+	<!--================ End Header Menu Area =================-->
+
+	<!-- ================ start banner area ================= -->	
+	<section class="blog-banner-area" id="category">
+		<div class="container h-100">
+			<div class="blog-banner">
+				<div class="text-center">
+					<h1>SMARTMED</h1>
+					<nav aria-label="breadcrumb" class="banner-breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home </a></li>
+              <li class="breadcrumb-item active" aria-current="page"><font color="blue"> Gallery</font></li>
+            </ol>
+          </nav>
+				</div>
+			</div>
+    </div>
+	</section>
+	<!-- ================ end banner area ================= -->
+
+
+	<!-- ================ category section start ================= -->		  
+  <section class="section-margin--small mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-4 col-md-5">
+          <div class="sidebar-categories">
+            <div class="head">Browse Categories</div>
+            <ul class="main-categories">
+              <li class="common-filter">
+                <form action="#">
+                  <ul>
+                    <li class="filter-list"><input onclick="operateRadioButton('all-items')" class="pixel-radio" type="radio" id="all" checked="checked" name="category"><label for="all">All Categories</label></li>
+                    <li class="filter-list"><input onclick="operateRadioButton('meeting-items')" class="pixel-radio" type="radio" id="meeting" name="category"><label for="meeting">Meetings</label></li>
+                    <li class="filter-list"><input onclick="operateRadioButton('lecture-items')" class="pixel-radio" type="radio" id="lecture" name="category"><label for="lecture">Lectures</label></li>
+                    <li class="filter-list"><input onclick="operateRadioButton('workshop-items')" class="pixel-radio" type="radio" id="workshop" name="category"><label for="workshop">workshops</label></li>
+                    <li class="filter-list"><input onclick="operateRadioButton('event-items')" class="pixel-radio" type="radio" id="event" name="category"><label for="event">Events</label></li>
+                    <li class="filter-list"><input onclick="operateRadioButton('upcomming-items')" class="pixel-radio" type="radio" id="upcomming" name="category"><label for="upcomming">Upcommings</label></li>
+                  </ul>
+                </form>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-9 col-lg-8 col-md-7">
+          <!-- Start Best Seller -->
+          <section class="lattest-product-area pb-40 category-list all-items workshop-items">
+              <h2>Workshop <span class="section-intro__style">August 2019</span></h2>
+              <br>
+            <div class="row">
+              <!-- <div class="all-items"> -->
+                <div class="col-md-6 col-lg-4">
+                  
+                  <div class="card text-center card-product">
+                    <div class="card-product__img">
+                      <img class="card-img" src="img/gallery/SuperGallery/Workshop_August2019/1.jpg" alt="" width="263px" height="250px">
+                    </div>
+                    <!-- <div class="card-body">
+                      <p>Annotation</p>
+                    </div> -->
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-center card-product">
+                      <div class="card-product__img">
+                        <img class="card-img" src="img/gallery/SuperGallery/Workshop_August2019/2.jpg" alt="" width="263px" height="250px">
+                      </div>
+                      <!-- <div class="card-body">
+                        <p>Annotation</p>
+                      </div> -->
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card text-center card-product">
+                      <div class="card-product__img">
+                        <img class="card-img" src="img/gallery/SuperGallery/Workshop_August2019/3.jpg" alt="" width="263px" height="250px">
+                      </div>
+                      <!-- <div class="card-body">
+                        <p>Annotation</p>
+                      </div> -->
+                    </div>
+                </div>  
+            </div>
+            <div style="text-align:center">
+              <a class="button button-blog" href="Gallery/workshop_August2019/photos.html">View All Photos</a>
+            </div> <br><br>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+	<!-- ================ category section end ================= -->		    
+
+
+  <!--================ Start footer Area  =================-->	
+	<footer>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row d-flex">
+					<p class="col-lg-12 footer-text text-center">
+          </p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--================ End footer Area  =================-->
+
+
+
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/skrollr.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+  <script src="vendors/nouislider/nouislider.min.js"></script>
+  <script src="vendors/jquery.ajaxchimp.min.js"></script>
+  <script src="vendors/mail-script.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/radioButtonEnabler.js"></script>
+</body>
+</html>
