@@ -1,0 +1,9 @@
+.mybullet li {
+    list-style-type: circle;
+    margin-left: 25px; padding-left: 0;
+}
+
+.mybullet li li {
+    list-style-type: square;
+    margin-left: 25px; padding-left: 0;
+}
